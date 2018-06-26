@@ -1,16 +1,3 @@
-// ==UserScript==
-// @name		Ensingm2 Salien Game Idler
-// @namespace	https://github.com/ensingm2/saliengame_idler
-// @version		0.0.1
-// @author		ensingm2
-// @match		*://steamcommunity.com/saliengame/play
-// @match		*://steamcommunity.com/saliengame/play/
-// @grant		none
-// ==/UserScript==
-
-// This is the zone you want to attack (Optional, otherwise picks one for you).
-var target_zone = -1;
-
 // Variables. Don't change these unless you know what you're doing.
 var real_round_length = 120; // Round Length of a real game (In Seconds, for calculating score)
 var resend_frequency = 110; // Frequency at which we can say we finished a round (May be different than real length)
